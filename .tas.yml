@@ -14,7 +14,7 @@ preRun:
 
 postMerge:
   pattern:
-    - "/test/**/*.spec.ts"
+    - "**/*.spec.ts"
   # strategy for trigerring builds for post-merge
   strategy:
     threshold: 1
@@ -22,7 +22,7 @@ postMerge:
 
 preMerge:
   pattern:
-    - "/test/**/*.spec.ts"
+    - "**/*.spec.ts"
 
 # configure whether to smartSelect test-cases. Default true
 smartRun: true
