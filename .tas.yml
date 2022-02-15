@@ -10,7 +10,6 @@ preRun:
   # set of commands to run before running the tests like `yarn install`, `yarn build`
   command:
     - npm i
-    - docker build --build-arg NPM_TOKEN=${{ secrets.NPM_TOKEN }} --tag=nucleus
 
 postMerge:
   pattern:
