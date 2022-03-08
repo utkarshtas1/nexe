@@ -2,10 +2,6 @@
 # supported frameworks: mocha|jest|jasmine
 framework: mocha
 
-blocklist:
-  # format: "<filename>##<suit-name>##<suit-name>##<test-name>"
-
-
 preRun:
   # set of commands to run before running the tests like `yarn install`, `yarn build`
   command:
