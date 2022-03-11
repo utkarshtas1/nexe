@@ -11,9 +11,6 @@ postMerge:
   pattern:
     - "**/*.spec.ts"
   # strategy for trigerring builds for post-merge
-  strategy:
-    threshold: 1
-    name: after_n_commits
 
 preMerge:
   pattern:
