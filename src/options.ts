@@ -139,7 +139,7 @@ function flatten(...args: any[]): string[] {
 }
 
 /**
- * Extract keys such as  { "rc-CompanyName": "Node.js" } to
+ * Extract keys such  as { "rc-CompanyName": "Node.js" } to
  * { CompanyName: "Node.js" }
  * @param {*} match
  * @param {*} options
@@ -297,7 +297,6 @@ function normalizeOptions(input?: Partial<NexeOptions>): NexeOptions {
   }
 
   Object.keys(alias)
-    .filter((k) => k !== 'rc')
     .forEach((x) => delete opts[x])
 
   return options
