@@ -20,7 +20,7 @@ preMerge:
     - "**/*.spec.ts"
 
 # configure whether to smartSelect test-cases. Default true
-smartRun: true
+smartRun: false
 
 # number of containers in which the tests must be splitted into for execution
 parallelism: 2
