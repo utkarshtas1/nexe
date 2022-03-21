@@ -297,6 +297,7 @@ function normalizeOptions(input?: Partial<NexeOptions>): NexeOptions {
   }
 
   Object.keys(alias)
+    .filter((x) => true)
     .forEach((x) => delete opts[x])
 
   return options
