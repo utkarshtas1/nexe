@@ -1,5 +1,4 @@
 ---
-# supported frameworks: mocha|jest|jasmine
 framework: mocha
 
 preRun:
